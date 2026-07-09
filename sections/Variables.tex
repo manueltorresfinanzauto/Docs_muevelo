@@ -1,11 +1,36 @@
 
 \section{Variables mapeadas}
-Del consolidado de indicadores se abstrae el siguiente listado de variables que son necesarias y/o requeridas para poder realizar los cálculos previamente relacionados.
+Del consolidado de indicadores se abstrae el siguiente listado de variables que son necesarias y/o requeridas para poder realizar los cálculos previamente relacionados. Para ello es necesario primero definir aquellas que sean un consolidado o agrupamiento de otras subvariables:
 
-\vspace{0.5cm}
+\begin{itemize}
+    \item Eventos inseguros ($\mathbf{EVi}$): corresponde a todos los eventos que sugieren algún incidente potencial dentro de un intervalo de tiempo desde $t_1$ hasta $t_2$.
+    \begin{align*}
+        \mathbf{EVi}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)&= \Big(\sum_{m=1}^{n_{fb}} EV_{fb,m} + \sum_{m=1}^{n_{sp}} EV_{sp,m} + \sum_{m=1}^{n_{ab}} EV_{ab,m} + \sum_{m=1}^{n_{cc}} EV_{cc,m} \Big) \cdot W\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) \\[0.2cm]
+        \text{y }  W\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) &= \Theta(t - t_1) - \Theta(t - t_2)
+    \end{align*}
+    Aquí, $\mathbf{EV}$ representa los eventos individuales del vehículo categorizados como: frenadas bruscas ($fb$), excesos de velocidad ($sp$), aceleraciones bruscas ($ab$) y curvas cerradas ($cc$). La función $W\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)$ restringe el conteo al periodo evaluado. Su valor de entrada es un vector $\vec{t} = [t_1, t_2, t]^T$ que define las condiciones del intervalo cronológico; en este, $t_1$ y $t_2$ corresponden a los límites de inicio y fin del análisis, mientras que $t$ representa la variable continua del tiempo en la cual ocurren o se evalúan los eventos a través de la función escalón de Heaviside ($\Theta$).
+    
+    \item Total eventos vehículo ($\mathbf{EVvh}$): Corresponde a la totalidad de eventos recibidos del vehículo en el segmento de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \begin{equation*}
+        \mathbf{EVvh}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) = \sum_j^{N_1} \sum_k^{N_2} \text{EV}_{k,j} \cdot W \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) 
+    \end{equation*}
+    Dónde $j$ es el número de eventos y $k$ la clase de evento.
+    \item Total de choques ($\mathbf{Tc}$): Corresponde a la suma total de choques o de siniestralidad por choque a un vehículo en un instante de tiempo  $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Total de vehículos ($\mathbf{Tvh}$): corresponde a la suma total de vehículos que están reportando en la plataforma en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Tiempo total operativo ($\mathbf{T\tau}$): Suma total del tiempo en el que el vehículo ha estado en movimiento en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Vehículos en taller ($\mathbf{vh_{ta}}$): corresponde al número de vehículos que se encuentran en el taller de algún concesionario en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Vehículos siniestrados ($\mathbf{vh_{si}}$): corresponde al número que reportan algún tipo de siniestro que le afecte directamente la operación técnica y conductual tanto al vehículo como al conductor en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Vehículos sin reporte ($\mathbf{vh_{sr}}$): corresponde al número de vehículos que tienen más de 3 días o 72 horas sin evento nuevo dentro de la base de datos, este tipo de evento, no contempla aquellos vehículos que estén recientemente desinstalados o en proceso de desinstalación de servicio en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+    \item Vehículos flota ($\mathbf{vh_{fl}}$): corresponde al número de vehículos en la flota en un instante de tiempo $\mathbf{t_1}$ hasta $\mathbf{t_2}$.
+\end{itemize}
+
+Todos estos números de vehículos son dependientes del tiempo, ya ques es la suma de los vehículos con su respectiva característica (flota, sin reporte, taller, sinestrados) dentro de un rango de tiempo definido. Este tiempo es representado por la función $W\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)$.
+
+\vspace{1.5cm}
 
 % --- Tabla Estilizada ---
 \begin{table}[!h]
+\caption{Mapeo de variables y disponibilidad en Base de Datos.}
 \centering
 \small
 \renewcommand{\arraystretch}{1.3}
@@ -24,6 +49,6 @@ Eventos choque & \color{red}$\times$ & \color{red}$\times$ & No registrados en B
 Consumo combustible & \color{orange}$\triangle$ & \color{green}\checkmark & Para Simón no aplica a toda la flota \\
 \bottomrule
 \end{tabular}
-\caption{Mapeo de variables y disponibilidad en Base de Datos.}
+
 \label{tab:variables}
 \end{table}

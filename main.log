@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.19)  9 JUL 2026 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.9)  9 JUL 2026 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -503,8 +503,20 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip66
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
+Package: esvect 
+\symesvector=\mathgroup9
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 29.
+Package hyperref Info: Option `colorlinks' set `true' on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count316
@@ -515,26 +527,26 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -589,23 +601,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 79.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/LogoSimon.png, id=55, 1284.9606pt x 722.7pt>
+<images/LogoSimon.png, id=59, 1284.9606pt x 722.7pt>
 File: images/LogoSimon.png Graphic file (type png)
 <use images/LogoSimon.png>
-Package pdftex.def Info: images/LogoSimon.png  used on input line 88.
+Package pdftex.def Info: images/LogoSimon.png  used on input line 91.
 (pdftex.def)             Requested size: 199.16928pt x 112.01733pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 102.
+ (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/LogoSimon.png>] (./main.toc
@@ -617,77 +633,97 @@ LaTeX Info: Redefining \% on input line 1.
 
 File: images/LogoSimon.png Graphic file (type png)
 <use images/LogoSimon.png>
-Package pdftex.def Info: images/LogoSimon.png  used on input line 114.
-(pdftex.def)             Requested size: 80.93726pt x 45.52458pt.
+Package pdftex.def Info: images/LogoSimon.png  used on input line 117.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
 
 
 Package fancyhdr Warning: \headheight is too small (32.0pt): 
-(fancyhdr)                Make it at least 60.02458pt, for example:
-(fancyhdr)                \setlength{\headheight}{60.02458pt}.
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-28.02458pt}.
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
 
-[1] (./sections/General.tex) (./sections/Seguridad.tex
-Overfull \hbox (5.45276pt too wide) in paragraph at lines 5--5
-|[]\OT1/cmr/bx/n/14.4 Proporci^^Son de even-tos in-se-gu-ros por veh^^S^^Pcu-lo ($\OML/cmm/m/it/14.4 Prev[]$\OT1/cmr/bx/n/14.4 )| 
- []
-
+[1] (./sections/General.tex) (./sections/Variables.tex
 File: images/LogoSimon.png Graphic file (type png)
 <use images/LogoSimon.png>
-Package pdftex.def Info: images/LogoSimon.png  used on input line 26.
-(pdftex.def)             Requested size: 80.93726pt x 45.52458pt.
+Package pdftex.def Info: images/LogoSimon.png  used on input line 21.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
+
 
 Package fancyhdr Warning: \headheight is too small (32.0pt): 
-(fancyhdr)                Make it at least 60.02458pt, for example:
-(fancyhdr)                \setlength{\headheight}{60.02458pt}.
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-28.02458pt}.
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
 
-[2]) (./sections/Productividad.tex) (./sections/Variables.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []|\OT1/cmr/m/n/10.95 Aceleraciones
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 20--20
+Underfull \hbox (badness 1661) in paragraph at lines 45--45
 []|\OT1/cmr/m/n/10.95 Exceso de ve-lo-ci-
  []
 
 
-Overfull \hbox (1.10056pt too wide) in paragraph at lines 12--27
+Overfull \hbox (1.10056pt too wide) in paragraph at lines 37--52
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
+) (./sections/Seguridad.tex
 File: images/LogoSimon.png Graphic file (type png)
 <use images/LogoSimon.png>
-Package pdftex.def Info: images/LogoSimon.png  used on input line 129.
-(pdftex.def)             Requested size: 80.93726pt x 45.52458pt.
+Package pdftex.def Info: images/LogoSimon.png  used on input line 2.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
 
 
 Package fancyhdr Warning: \headheight is too small (32.0pt): 
-(fancyhdr)                Make it at least 60.02458pt, for example:
-(fancyhdr)                \setlength{\headheight}{60.02458pt}.
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-28.02458pt}.
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
 
-[3]
+[3]) (./sections/Productividad.tex
 File: images/LogoSimon.png Graphic file (type png)
 <use images/LogoSimon.png>
-Package pdftex.def Info: images/LogoSimon.png  used on input line 129.
-(pdftex.def)             Requested size: 80.93726pt x 45.52458pt.
+Package pdftex.def Info: images/LogoSimon.png  used on input line 10.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
 
 
 Package fancyhdr Warning: \headheight is too small (32.0pt): 
-(fancyhdr)                Make it at least 60.02458pt, for example:
-(fancyhdr)                \setlength{\headheight}{60.02458pt}.
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-28.02458pt}.
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
 
-[4] (./main.aux
+[4]) (./sections/Operativa.tex
+File: images/LogoSimon.png Graphic file (type png)
+<use images/LogoSimon.png>
+Package pdftex.def Info: images/LogoSimon.png  used on input line 21.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
+
+
+Package fancyhdr Warning: \headheight is too small (32.0pt): 
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
+
+[5]) (./sections/Costos.tex)
+File: images/LogoSimon.png Graphic file (type png)
+<use images/LogoSimon.png>
+Package pdftex.def Info: images/LogoSimon.png  used on input line 131.
+(pdftex.def)             Requested size: 116.3473pt x 65.44142pt.
+
+
+Package fancyhdr Warning: \headheight is too small (32.0pt): 
+(fancyhdr)                Make it at least 79.94142pt, for example:
+(fancyhdr)                \setlength{\headheight}{79.94142pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-47.94142pt}.
+
+[6] (./main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -696,21 +732,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F7BE351B0EDF8C0C306EB31102D54660;2055.
+(rerunfilecheck)             Checksum: 5A9E51C1163A4224473961F846DE78AA;2599.
  ) 
 Here is how much of TeX's memory you used:
- 22211 strings out of 476006
- 407857 string characters out of 5791060
- 1934975 words of memory out of 5000000
- 43846 multiletter control sequences out of 15000+600000
- 568995 words of font info for 78 fonts, out of 8000000 for 9000
+ 22415 strings out of 476006
+ 410794 string characters out of 5791061
+ 1939975 words of memory out of 5000000
+ 44016 multiletter control sequences out of 15000+600000
+ 575119 words of font info for 103 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 84i,15n,87p,466b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (5 pages, 267140 bytes).
+ 84i,16n,87p,779b,744s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (7 pages, 320383 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

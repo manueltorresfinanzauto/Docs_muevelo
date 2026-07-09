@@ -1,10 +1,22 @@
 \section{Objetivo de productividad}
-El objetivo de Productividad busca medir el nivel de utilización de los vehículos durante la operación, permitiendo identificar oportunidades para optimizar el uso de los activos.
+El objetivo de Productividad busca medir el nivel de utilización de los vehículos durante la operación, permitiendo identificar oportunidades para optimizar el uso de los activos, mejorar la eficiencia operativa y maximizar el tiempo efectivo de trabajo. Los indicadores asociados a este objetivo permiten evaluar tanto el tiempo de operación de los vehículos como las posibles ineficiencias derivadas de periodos prolongados de ralentí.
+
+
+\subsection{Horas de operación del vehículo}
+Este indicador mide la cantidad total de horas que un vehículo permaneció con el motor encendido durante el periodo analizado. Su propósito es cuantificar el nivel de utilización del activo dentro de la operación en un periodo de tiempo.
+
+\begin{equation*}
+    \text{Horas\_Operación}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) = \sum_{i=1}^{n} \text{horas\_motor\_encendido}_i \cdot W\big( \hspace{0.07cm} \smash{\vec{t}_i}\,\vphantom{t_i} \hspace{0.07cm} \big)
+\end{equation*}
+
+Un valor más alto indica una mayor utilización del vehículo. Este indicador debe analizarse en conjunto con otras métricas operativas para determinar si el tiempo de uso está generando productividad efectiva.
 
 \subsection{Ratio tiempo en ralentí}
-Este indicador mide el porcentaje del tiempo en que el vehículo permaneció encendido sin realizar actividad productiva.
+Este indicador mide el porcentaje del tiempo en que el vehículo permaneció encendido sin realizar actividad productiva, es decir, operando en ralentí. El principal objetivo es identificar para reducir consumos ineficientes de combustible y mejorar la eficiencia operativa
 
-\subsubsection{Fórmula}
+
 \begin{equation*}
-    \text{Ralenti Ratio} = \frac{\text{tiempo total en ralentí}_{i}}{\text{tiempo total operativo}_{i}} \times 100
+    \text{Ralenti Ratio} = 100 \times \sum_{i=1}^{n} \frac{\text{tiempo en ralentí}_i}{\text{tiempo operativo}_i} \cdot W\big( \hspace{0.07cm} \smash{\vec{t}_i}\,\vphantom{t_i} \hspace{0.07cm} \big)
 \end{equation*}
+
+Un valor más alto indica una mayor utilización del vehículo en operaciones que se encuentran asociadas a periodos improductivos, lo que puede generar mayores costos operativos y un uso ineficiente de los recursos.

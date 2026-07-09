@@ -1,0 +1,27 @@
+\section{Objetivo de disponibilidad operativa}
+
+El objetivo de Disponibilidad Operativa busca medir la capacidad de la flota para encontrarse activa y disponible para la operación durante el periodo analizado. A través de estos indicadores se evalúa el impacto de factores como mantenimientos, siniestros y fallas de comunicación en la continuidad operativa de los vehículos, permitiendo identificar oportunidades para maximizar la disponibilidad de los activos y garantizar una operación eficiente.
+
+\subsection{Disponibilidad de flota}
+
+Este indicador mide el porcentaje de vehículos que se encuentran disponibles para la operación respecto al total de la flota. Considera como vehículos no disponibles aquellos que se encuentren en taller, involucrados en siniestros o que presenten ausencia de reportes por parte de los dispositivos de telemetría 
+
+\begin{equation*}
+    \text{Flota activa} \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) = 100 \times \frac{vh_{fl}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) - \Big(vh_{ta}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) + vh_{si}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) + vh_{sr}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) \Big) }{vh_{fl} \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)}
+\end{equation*}
+
+% \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)
+
+Un valor alto indica que la mayoría de los vehículos están listos para operar, mientras que un valor bajo evidencia afectaciones en la continuidad operativa de la flota y posibles oportunidades de mejora en la gestión de mantenimiento.
+
+
+\subsection{Tiempo medio de inactividad}
+
+Este indicador mide la proporción de tiempo en que los vehículos permanecen sin genera información de telemetría respecto al tiempo total esperado de la operación de la flota. Su objetivo es identificar interrupciones en la comunicación o periodos de inactividad que puedan afectar la visibilidad de la operación 
+
+\begin{equation*}
+    \bar{t}_{inactividad} = 100 \times \sum_j^N \frac{\text{horas vh sin reporte}}{\text{horas operativas flota}} \cdot W\big( \hspace{0.07cm} \smash{\vec{t}_j}\,\vphantom{t} \hspace{0.07cm} \big)
+\end{equation*}
+
+Un valor elevado indica una mayor proporción de tiempo sin información disponible de los vehículos, lo que puede afectar el monitoreo y control del vehículo.
+

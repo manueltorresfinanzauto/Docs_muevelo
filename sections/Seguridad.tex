@@ -1,26 +1,26 @@
 
 \section{Objetivo de seguridad}
-El objetivo de Seguridad busca promover y monitorear prácticas de conducción seguras mediante el análisis de eventos de telemetría asociados al comportamiento del conductor y la operación del vehículo.
+El objetivo de Seguridad busca promover y monitorear prácticas de conducción seguras mediante el análisis de eventos de telemetría asociados al comportamiento del conductor y la operación del vehículo. A través de estos indicadores se busca identificar conductas de riesgo, prevenir incidentes, reducir la probabilidad de accidentes y fomentar hábitos de conducción responsables que contribuyan a la protección de las personas, los activos y la continuidad de la operación.
 
-\subsection{Proporción de eventos inseguros por vehículo (\texorpdfstring{$Prev_{insecure}$}{Prev insecure})}
+\subsection{Proporción de eventos inseguros por vehículo (\texorpdfstring{$\mathbf{PR}_{\mathbf{EVi}}$}{PR\_EVi})}
 Este indicador mide la participación de eventos de conducción catalogados como inseguros al total de eventos registrados por la telemetría. Su objetivo es identificar el nivel de exposición al riesgo asociado al comportamiento de conducción del vehículo.
 
-\subsubsection{Fórmula}
-\begin{equation*}
-    Prev_{insecure} = \frac{\text{evinseguros}_{i}}{\text{evvh}_{i}} \times 100
-\end{equation*} % <- CORREGIDO: Sintaxis limpia sin caracteres extra
 
-\subsubsection{Interpretación}
+\begin{equation*}
+    Pr_{EVi} \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) = 100 \times \frac{EVi \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)}{EVvh \big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)}
+\end{equation*} % <- CORREGIDO: Sintaxis limpia sin caracteres extra
+ 
+
 Un valor alto del indicador refleja una mayor frecuencia de comportamientos de riesgo dentro de la operación, mientras que un valor bajo indica mejores prácticas de conducción y una menor exposición a incidentes.
 
-\subsection{Índice de siniestralidad (\texorpdfstring{$I_{siniestralidad}$}{I siniestralidad})}
+\subsection{Índice de siniestralidad (\texorpdfstring{$\mathbf{I}_{\mathbf{si}}$}{I siniestralidad})}
 Este indicador mide la frecuencia de accidentes o choques reportados dentro de la flota en relación con el total de vehículos monitoreados.
 
-\subsubsection{Fórmula}
+
 \begin{equation*}
-    I_{siniestralidad} = \frac{\text{Total choques}_{i}}{\text{Total vehículos}_{i}} \times 100
+    I_{si}\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big) = 100 \times \frac{\text{Tc}}{\text{Tvh}}  \cdot W\big( \hspace{0.07cm} \smash{\vec{t}}\,\vphantom{t} \hspace{0.07cm} \big)
 \end{equation*}
 
-\subsubsection{Interpretación}
+
 Un valor alto sugiere una mayor incidencia de accidentes dentro de la operación, mientras que valores bajos reflejan una gestión más efectiva de los riesgos asociados a la operación y al uso de los vehículos.
 

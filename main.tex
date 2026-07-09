@@ -14,7 +14,8 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{hyperref} 
-
+\usepackage{bm}
+\usepackage{esvect}
 % --- Definición de Colores Corporativos ---
 \definecolor{SimonTeal}{HTML}{00E5C9} 
 \definecolor{SimonDark}{HTML}{111111} 
@@ -59,7 +60,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\headrule}{\hbox to\headwidth{\color{SimonTeal}\leaders\hrule height \headrulewidth\hfill}}
 \fancyhead[L]{\BarrasLaterales\small \color{gray}}
-\fancyhead[R]{\includegraphics[height=1.6cm]{images/LogoSimon.png}} 
+\fancyhead[R]{\includegraphics[height=2.3cm]{images/LogoSimon.png}} 
 
 \fancyfoot[C]{\thepage}
 \renewcommand{\footrulewidth}{0pt}
@@ -72,6 +73,8 @@
   \renewcommand{\headrulewidth}{0pt}
 }
 
+\newcommand{\rojo}[1]{{\color{red}#1}}
+
 % --- Inicio del Documento ---
 \begin{document}
 
@@ -79,33 +82,33 @@
 % PORTADA / PÁGINA DE INICIO Estilo Corporativo
 % ===================================================
 \begin{titlepage}
-    \pagenumbering{alph} 
+    \pagenumbering{alph}
     \nopagebreak
-    \BarrasLaterales 
-    
+    \BarrasLaterales
+
     \begin{flushright}
         \vspace*{-2.8cm}
-        \includegraphics[width=7cm]{images/LogoSimon.png} \\ 
-        
-        
+        \includegraphics[width=7cm]{images/LogoSimon.png} \\
+
+
         \vspace{4cm}
-        
+
         {\Huge\bfseries\color{SimonDark} Informe de indicadores de \\ telemetría - Muevelo} \\[0.5cm]
-        {\color{SimonTeal}\hrule height 3pt width 10cm} 
+        {\color{SimonTeal}\hrule height 3pt width 10cm}
         \vspace{0.8cm}
-        
+
         \vspace{4cm}
-        
+
         \begin{tabular}{ll}
             \textbf{Elaborado por:} & Analítica Simón Movilidad \\
-            \textbf{Ubicación:}    & Colombia - Bogotá, D.C. \\
-            \textbf{Fecha:}        & 25 de junio del 2026 \\
+            \textbf{Ubicación:}     & Colombia - Bogotá, D.C.   \\
+            \textbf{Fecha:}         & \today                    \\
         \end{tabular}
     \end{flushright}
 \end{titlepage}
 
 \newpage
-\pagenumbering{arabic} 
+\pagenumbering{arabic}
 
 % ===================================================
 % TABLA DE CONTENIDO
@@ -118,12 +121,11 @@
 % ===================================================
 
 \input{sections/General.tex}
+\input{sections/Variables.tex}
 \input{sections/Seguridad.tex}
 \input{sections/Productividad.tex}
-\input{sections/Variables.tex}
-
-
-
+\input{sections/Operativa.tex}
+\input{sections/Costos.tex}
 
 
 \end{document}

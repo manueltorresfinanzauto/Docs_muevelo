@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1783607182.61997 "/home/manueltorres/muevelo/docs/main.tex" "main.pdf" "main" 1783607183.93813 2
+["pdflatex"] 1783609611.78288 "/home/manueltorres/muevelo/docs/main.tex" "main.pdf" "main" 1783609612.8759 0
   "/etc/texmf/web2c/texmf.cnf" 1772730299.75634 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/manueltorres/muevelo/docs/main.tex" 1783607180.9481 7602 e81c89190201a5895d3150103ff69a1c ""
+  "/home/manueltorres/muevelo/docs/main.tex" 1783609540.3111 3738 cb1fe4c7a5809c6478957b19b67c1a2b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -164,10 +164,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772730325.47629 5349216 bf3a80e68d946c7acd95ff030fd9bb63 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1781880733 6900459 dffc3abd801eff9a402d7173ba30c67e ""
   "images/LogoSimon.png" 1783607029.53996 146156 16d04e40d01cf2c5e36e2e386a7450e2 ""
-  "main.aux" 1783607183.84809 2193 4b8a5c051fd85edefa28705d6b75f523 "pdflatex"
-  "main.out" 1783607183.84809 2055 f7be351b0edf8c0c306eb31102d54660 "pdflatex"
-  "main.tex" 1783607180.9481 7602 e81c89190201a5895d3150103ff69a1c ""
-  "main.toc" 1783607183.84809 1104 f3bee15eea4d7342c44f072e129b6b09 "pdflatex"
+  "main.aux" 1783609612.81063 2365 7baec29bb8b3777e3f6f64e9f2de4eff "pdflatex"
+  "main.out" 1783609612.81063 2055 f7be351b0edf8c0c306eb31102d54660 "pdflatex"
+  "main.tex" 1783609540.3111 3738 cb1fe4c7a5809c6478957b19b67c1a2b ""
+  "main.toc" 1783609612.81063 1104 f3bee15eea4d7342c44f072e129b6b09 "pdflatex"
+  "sections/General.tex" 1783609611.57064 601 c822daea6083f70ca639c467c6cfc0d8 ""
+  "sections/Productividad.tex" 1783609413.62189 556 c8eed710a1bd4f01b46756a4d5eb837d ""
+  "sections/Seguridad.tex" 1783609369.6922 1703 5365fd6e272cf3e16220daa3b14d2cf9 ""
+  "sections/Variables.tex" 1783609565.10091 1454 9ebc0a2e70711f8542bbe38f187d5e47 ""
   (generated)
   "main.aux"
   "main.log"

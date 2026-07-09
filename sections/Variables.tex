@@ -1,0 +1,29 @@
+
+\section{Variables mapeadas}
+Del consolidado de indicadores se abstrae el siguiente listado de variables que son necesarias y/o requeridas para poder realizar los cálculos previamente relacionados.
+
+\vspace{0.5cm}
+
+% --- Tabla Estilizada ---
+\begin{table}[!h]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{p{3.2cm}cc p{4.6cm}} % <- CORREGIDO: Columnas reducidas para que encajen con el margen izquierdo de 3.5cm
+\toprule
+\textbf{Variable} & \multicolumn{2}{c}{\textbf{Estatus BD}} & \textbf{Observación} \\
+ & \textbf{Simón Movilidad} & \textbf{Traccar BD} & \\
+\midrule
+Frenadas bruscas & \color{green}\checkmark & \color{green}\checkmark & \\
+Aceleraciones bruscas & \color{green}\checkmark & \color{green}\checkmark & \\
+Curva cerrada & \color{green}\checkmark & \color{green}\checkmark & \\
+Exceso de velocidad & \color{green}\checkmark & \color{green}\checkmark & Variable calculada \\
+Vehículos en taller & \color{orange}$\bigcirc$ & \color{orange}$\bigcirc$ & Dependiente de externos \\
+Vehículos siniestrados & \color{orange}$\bigcirc$ & \color{orange}$\bigcirc$ & Dependiente de externos \\
+Eventos choque & \color{red}$\times$ & \color{red}$\times$ & No registrados en BD \\
+Consumo combustible & \color{orange}$\triangle$ & \color{green}\checkmark & Para Simón no aplica a toda la flota \\
+\bottomrule
+\end{tabular}
+\caption{Mapeo de variables y disponibilidad en Base de Datos.}
+\label{tab:variables}
+\end{table}

@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivo general}{2}{section.1}%
+\contentsline {section}{\numberline {2}Objetivo de seguridad}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Proporción de eventos inseguros por vehículo ($Prev_{insecure}$)}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Fórmula}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Interpretación}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Índice de siniestralidad ($I_{siniestralidad}$)}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Fórmula}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Interpretación}{3}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Objetivo de productividad}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ratio tiempo en ralentí}{3}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Fórmula}{3}{subsubsection.3.1.1}%
+\contentsline {section}{\numberline {4}Variables mapeadas}{3}{section.4}%
